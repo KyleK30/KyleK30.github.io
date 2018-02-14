@@ -4,6 +4,11 @@
     <title>Project: Recipe book</title>
     <meta charset="utf-8">
     <style>
+        @keyframes pulse {
+            from {opacity: 0.0;
+                font-size: 100%;}
+            to {opacity: 1.0;
+                font-size: 100%;}}
         body {text-align:center;}
         body {color:black;}
         #r1 {color:blue;}
@@ -14,137 +19,143 @@
         li, ul, ol {border: 1px solid #ccc; margin: auto; width:200px;}
         .recipes {border: 5px double #ccc; margin:auto; width:500px}
         #Top {border:10px ridge #ccc; margin:auto; width:300px; padding: 5px}
+        h3 {color:red; animation-name: pulse;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-direction: alternate;
+        }
     </style>
 </head>
 
 <body>
 
-    <div id="Top"><h1><marquee>Kyle's Recipe Book</marquee></h1>
+<div id="Top"><h1><marquee>Kyle's Recipe Book</marquee></h1>
+<h3>WARNING. Don't actually use any of these recipes. They are unsafe and may cause serious health issues.</h3>
+    <h2>Contents:</h2>
 
-<h2>Contents:</h2>
-
-<ol>
-    <li><a href="#r1">Recipe #1</a></li>
-    <li><a href="#r2">Recipe #2</a></li>
-    <li><a href="#r3">Recipe #3</a></li>
-</ol></div>
+    <ol>
+        <li><a href="#r1">Recipe #1</a></li>
+        <li><a href="#r2">Recipe #2</a></li>
+        <li><a href="#r3">Recipe #3</a></li>
+    </ol></div>
 <div class="recipes">
-<h2 id="r1">Recipe #1 By: Hunter Sowle</h2>
+    <h2 id="r1">Recipe #1 By: Hunter Sowle</h2>
 
-<img src="http://lowcarbediem.com/wp-content/uploads/2013/07/low-carb-bread-alternative-lettuce-wraps-e1423269608911.jpg">
-<ul>
-    <li>Time: 2.5 hours</li>
-    <li>Serves: 6 people</li>
-</ul>
+    <img src="http://lowcarbediem.com/wp-content/uploads/2013/07/low-carb-bread-alternative-lettuce-wraps-e1423269608911.jpg">
+    <ul>
+        <li>Time: 2.5 hours</li>
+        <li>Serves: 6 people</li>
+    </ul>
 
-<table>
-    <thead>
-    <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>Literal dog hair</td>
-        <td>3 Pounds</td>
-    </tr>
-    <tr>
-        <td>lettuce</td>
-        <td>3 Leaves</td>
-    </tr>
-    <tr>
-        <td>Golden Radish</td>
-        <td>6 heads</td>
-    </tr>
-    <tr>
-        <td>An assortment of rodent meat</td>
-        <td>3 cubic meters</td>
-    </tr>
+    <table>
+        <thead>
+        <tr>
+            <th>Ingredients</th>
+            <th>Quantity</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Literal dog hair</td>
+            <td>3 Pounds</td>
+        </tr>
+        <tr>
+            <td>lettuce</td>
+            <td>3 Leaves</td>
+        </tr>
+        <tr>
+            <td>Golden Radish</td>
+            <td>6 heads</td>
+        </tr>
+        <tr>
+            <td>An assortment of rodent meat</td>
+            <td>3 cubic meters</td>
+        </tr>
 
-    </tbody>
-</table>
+        </tbody>
+    </table>
 
-<p><strong>Step 1:</strong> Mix all your ingredients besides the lettuce.<br><strong>Step 2:</strong> Put your mixture between the 3 leaves of lettuce.<br>(one leaf should be in the middle)<br><strong>Step 3:</strong> Cut into smaller portions and serve.
-</p></div>
+    <p><strong>Step 1:</strong> Mix all your ingredients besides the lettuce.<br><strong>Step 2:</strong> Put your mixture between the 3 leaves of lettuce.<br>(one leaf should be in the middle)<br><strong>Step 3:</strong> Cut into smaller portions and serve.
+    </p></div>
 <div class="recipes">
-<h2 id="r2">Recipe #2 By: Taebin Rivers</h2>
+    <h2 id="r2">Recipe #2 By: Taebin Rivers</h2>
 
-<img src="http://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/image/recipes/sl/11/chicken-brisket-brunswick-stew-sl-x.jpg?itok=nqcA-aw5">
-<ul>
-    <li>Time: 5 years</li>
-    <li>Serves: 1 village</li>
-</ul>
+    <img src="http://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/image/recipes/sl/11/chicken-brisket-brunswick-stew-sl-x.jpg?itok=nqcA-aw5">
+    <ul>
+        <li>Time: 5 years</li>
+        <li>Serves: 1 village</li>
+    </ul>
 
-<table>
-    <thead>
-    <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>Horse meat</td>
-        <td>3 Pounds</td>
-    </tr>
-    <tr>
-        <td>chicken gizzard</td>
-        <td>3 pounds</td>
-    </tr>
-    <tr>
-        <td>salt</td>
-        <td>6 pounds</td>
-    </tr>
-    <tr>
-        <td>Slurp juice</td>
-        <td>30 gallons</td>
-    </tr>
+    <table>
+        <thead>
+        <tr>
+            <th>Ingredients</th>
+            <th>Quantity</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Horse meat</td>
+            <td>3 Pounds</td>
+        </tr>
+        <tr>
+            <td>chicken gizzard</td>
+            <td>3 pounds</td>
+        </tr>
+        <tr>
+            <td>salt</td>
+            <td>6 pounds</td>
+        </tr>
+        <tr>
+            <td>Slurp juice</td>
+            <td>30 gallons</td>
+        </tr>
 
-    </tbody>
-</table>
+        </tbody>
+    </table>
 
-<p><strong>Step 1:</strong> Cut all of your meat into cubes.<br><strong>Step 2:</strong> Mix the cubes with salt.<br><strong>Step 3:</strong> Stir them into the slurp juice and serve.
-</p></div>
+    <p><strong>Step 1:</strong> Cut all of your meat into cubes.<br><strong>Step 2:</strong> Mix the cubes with salt.<br><strong>Step 3:</strong> Stir them into the slurp juice and serve.
+    </p></div>
 <div class="recipes">
-<h2 id="r3">Recipe #3 By: Sameer Khan</h2>
+    <h2 id="r3">Recipe #3 By: Sameer Khan</h2>
 
-<img src="https://i.pinimg.com/originals/07/81/b2/0781b212fcb1d30d09ce6aea12fee748.jpg" width="400">
-<ul>
-    <li>Time: 17 years</li>
-    <li>Serves: The whole world</li>
-</ul>
+    <img src="https://i.pinimg.com/originals/07/81/b2/0781b212fcb1d30d09ce6aea12fee748.jpg" width="400">
+    <ul>
+        <li>Time: 17 years</li>
+        <li>Serves: The whole world</li>
+    </ul>
 
-<table>
-    <thead>
-    <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>Healing potions</td>
-        <td>3000 gallons</td>
-    </tr>
-    <tr>
-        <td>beef</td>
-        <td>3000 pounds</td>
-    </tr>
-    <tr>
-        <td>broccoli</td>
-        <td>6000 pounds</td>
-    </tr>
-    <tr>
-        <td>curry powder</td>
-        <td>30000 gallons</td>
-    </tr>
+    <table>
+        <thead>
+        <tr>
+            <th>Ingredients</th>
+            <th>Quantity</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Healing potions</td>
+            <td>3000 gallons</td>
+        </tr>
+        <tr>
+            <td>beef</td>
+            <td>3000 pounds</td>
+        </tr>
+        <tr>
+            <td>broccoli</td>
+            <td>6000 pounds</td>
+        </tr>
+        <tr>
+            <td>curry powder</td>
+            <td>30000 gallons</td>
+        </tr>
 
-    </tbody>
-</table>
+        </tbody>
+    </table>
 
-<p><strong>Step 1:</strong> Cut  the beef and broccoli into small pieces.<br><strong>Step 2:</strong>Stir the curry powder into the healing potions.<br><strong>Step 3:</strong> Add in the beef and broccoli.<br><strong>Step 4:</strong> Bake the mixture for 17 years at 450 degrees.
-</p></div>
+    <p><strong>Step 1:</strong> Cut  the beef and broccoli into small pieces.<br><strong>Step 2:</strong>Stir the curry powder into the healing potions.<br><strong>Step 3:</strong> Add in the beef and broccoli.<br><strong>Step 4:</strong> Bake the mixture for 17 years at 450 degrees.
+    </p></div>
 
 <p><em>Source: <a target="_blank" href="http://allrecipes.com/recipes/">Some recipes websites</a></em></p>
 
