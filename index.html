@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Project: Recipe book</title>
+    <title>Recipe book</title>
     <meta charset="utf-8">
     <style>
         @keyframes pulse {
@@ -14,6 +14,7 @@
         #r1 {color:blue;}
         #r2 {color:red;}
         #r3 {color:green;}
+        #r4 {color:yellow;}
         table {margin: auto;border: 1px solid black}
         td {border: 1px solid #ccc}
         li, ul, ol {border: 1px solid #ccc; margin: auto; width:200px;}
@@ -25,11 +26,54 @@
             animation-timing-function: ease-in;
             animation-direction: alternate;
         }
-        a:hover, a:active, a:focus {background-color:chartreuse;}
-    </style>
-</head>
+        a:hover, a:active, a:focus {background-color:red;}
+        body {margin:0;}
 
+        #bar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:darkslategray;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .bat {
+            float: left;
+        }
+
+        .bat a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .bat a:hover:not(.active) {
+            background-color: blue;
+        }
+
+        .active {
+            background-color: green;
+        }
+        body {
+            padding:20px;
+            margin-top:30px;
+            height:1500px;
+        }
+    </style>
+
+    <ul id="bar">
+        <li class="bat"><a class="active" href="#home">Home</a></li>
+        <li class="bat"><a href="#news">News</a></li>
+        <li class="bat"><a href="#contact">Contact</a></li>
+        <li class="bat"><a href="#about">About</a></li>
+    </ul>
 <body>
+
 <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
 <div id="Top"><h1><marquee>Kyle's Recipe Book</marquee></h1>
     <h3>WARNING. Don't actually use any of these recipes. They are unsafe and may cause serious health issues.</h3>
@@ -43,8 +87,7 @@
     </ol></div>
 <div class="recipes">
     <h2 id="r1">Recipe #1 By: Hunter Sowle</h2>
-
-    <img src="http://lowcarbediem.com/wp-content/uploads/2013/07/low-carb-bread-alternative-lettuce-wraps-e1423269608911.jpg" width="400" alt="image of a lettuce wrap">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPATtw06AHIpggluQuQl3nL8W_P2LMMDP4S65wBvq5Uso_716J_Q" width="400" alt="image of a lettuce wrap">
     <ul>
         <li>Time: 2.5 hours</li>
         <li>Serves: 6 people</li>
