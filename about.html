@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Recipe Book</title>
+    <title>Kyle's Website</title>
     <style>
         body {text-align:center; background-color: #e6eff6}
         body {color:black;font-family: 'Kavivanar', cursive;}
-        a:hover, a:active, a:focus {background-color:red;}
         body {margin:0;}
         li, ul {border: 1px solid #ccc; margin: auto; width:200px;}
         #bar {
@@ -49,11 +48,34 @@
             text-align:center;
             padding:5px;
         }
-        <img src="sc.png"/></style>
+        .button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+        }
+
+        .button:hover {background-color: #3e8e41}
+
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+    </style>
 </head>
 <body>
 <ul id="bar">
-    <li class="bat"><a class="active" href="index.html">Home</a></li>
+    <li class="bat"><a class="active" href="Hunter's%20recipe%20book.html">Home</a></li>
     <li class="bat"><a href="news.html">News</a></li>
     <li class="bat"><a href="contact.html">Contact</a></li>
     <li class="bat"><a href="about.html">About</a></li>
@@ -62,7 +84,7 @@
 <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
 <p>
     This is a recipe website created by students at BHS. All these recipes are free to use as long as you pay me beforehand. Make sure to check out some more cool websites made by other BHS students.<br>
-    <em><a target="_blank" href="https://paypal.me/KyleKuwahara">Donate here</a></em><br>
+    <em><button class="button"><a target="_blank" href="https://paypal.me/KyleKuwahara">Donate here</a></button></em><br>
 </p>
 <em>Website: <a target="_blank" href="https://wolflakekid.github.io/">Another cool website</a></em><br>
 <em>Website: <a target="_blank" href="https://jakehiltonn.github.io/">Another cool website</a></em><br>
